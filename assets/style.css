@@ -1,0 +1,122 @@
+/*CSS Dev Mallett Basic Portfolio*/
+
+/*------------Nav Css-----------*/
+  /*Contains name in nav bar*/
+  #nameContain{
+    width: auto;
+    height: auto;
+    background-color: #4ba9a4;
+    padding: 20px 20px 20px 40px;
+    color: #eeee;
+    margin-bottom: 0;
+    
+  }
+  /*Styles nav link to other pages in repository*/  
+  div>ul>li>a{
+    text-decoration: none;
+    color: #777777;
+    font-size: 20px;
+    
+  }
+
+  #newNav{
+    color: #4ba9a4;
+    width: auto;
+    } 
+  
+  .navbar-dark{
+      background-image: none;
+      background-color: #4ba9a4;
+      font: #777777;
+      } 
+  #navBox{
+        background-color: #eee;
+        width: 1600px;
+      }
+
+/*------------Body Css----------*/
+   
+  /*Background Body Image*/
+    body{
+      background-image: url("../images/congruent_outline.png");
+      z-index: 1;
+
+    }
+  /*Styles containers to show forward on webpage*/
+      .container{
+        z-index: 2;
+      }
+
+  /*Styles  header of each section */
+    #nameContain{
+      width: auto;
+      height: auto;
+      background-color: #4ba9a4;
+      padding: 20px 20px 20px 40px;
+      color: #eeee;
+  }
+  /*Sizing containers*/
+    #boxMe{
+      width: 100%;
+      height:auto;
+      position: relative;
+      border: .5px solid grey;
+      background-color: #eee;
+    padding: 20px 40px 10px 40px;
+  }
+  /*Styling section headers in containers */
+    h2{
+      color: #4ba9a4;
+      border: 200px 20px 20px 20px;
+      border-color: grey;
+      border-bottom: 5px solid grey;
+      padding: 20px 0px 20px 0px;
+      font-size: 40px;
+      }
+  
+
+  /*About/Index*/
+    /*Styling headshot*/
+      #me{
+        width: 200px;
+        height: 300px;
+        margin-right: -25px; 
+      }
+
+      /*Styles 'about me' content */
+      p{
+        font-size: 25px;
+       color: #777777;
+       text-align: justify;
+     }
+     
+  
+  
+  /*Contact*/
+  
+    label{
+      color: grey;
+      font-size: 30px;
+      float: left;
+      margin-bottom: 10px;
+    }
+    input[type = submit]{
+      width: 15%;
+      color: #4ba9a4;
+      margin: 25px 0 0 0;
+      border-radius: 4px;
+      cursor: pointer;
+      font-size: 35px;;
+      
+    }
+
+/*--------Footer Css--------*/
+  #foot {
+    background: grey;
+    border-top: 10px solid #4ba9a4;
+    padding: 20px 0px 0px 50%;
+    color: white;
+    text-align: center;
+    height: 75px;
+  }
+  
